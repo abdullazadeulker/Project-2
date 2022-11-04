@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@500&display=swap');
+body {
+    width: 100%;
+}
+.todo {
+    position: relative;
+    box-sizing: border-box;
+    width: 336px;   
+    left: -50px;
+    margin-bottom: 232px;
+    margin-top: 232px;
+    margin-right: 300px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+  
+}
+
+.head {
+    width: 335px;
+    height: 28px;
+    left: 408px;
+    margin-top: 0px;
+    border-radius: 10px 10px 0 0;
+    background: rgb(18, 138, 36);
+}
+
+h1 {
+    width: 198px;
+    height: 34px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.arrw {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    top: -10px;
+    right: 10px;
+    margin-left: 280px;
+    margin-right: 400px;
+    background-color: white;
+    border-color: aliceblue;
+}
+
+.list {
+    box-sizing: border-box;
+    width: 286px;
+    height: 40px;
+    left: 436px;
+    top: 349px;
+    margin-left: 25px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+.tasks {
+    width: 200px;
+}
+
+.add {
+    width: 129px;
+    height: 42px;
+    left: 521px;
+    top: 407px;
+    margin-left: 104px;
+    margin-top: -2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+    background-color: rgb(106, 160, 19);
+    border-radius: 10px;
+    border-color:white;
+}
+.task-list{
+    list-style-type: none;
+}
+.arrw1,.arrw2{
+    background-color:rgb(122, 154, 42);
+    color:black;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.cancel{
+    background-color: rgb(154, 198, 83);
+    border-color: wh;
+}
